@@ -1,0 +1,32 @@
+<testsuites name="jest tests" tests="2" failures="2" time="3.487">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2020-06-21T06:13:20" time="3.487" tests="2">
+    <testcase classname=" App renders correctly" name=" App renders correctly" time="0.048">
+      <failure>Error: expect(element).toBeDisabled()
+
+Received element is not disabled:
+  &lt;button data-testid=&quot;button-restart&quot; /&gt;
+    at Object.&lt;anonymous&gt; (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/src/App.test.js:35:25)
+    at Object.asyncFn (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Switching between slides works as expected" name=" Switching between slides works as expected" time="0.012">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  title 1
+Received:
+  Slide Title Here
+    at Object.&lt;anonymous&gt; (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/src/App.test.js:97:23)
+    at Object.asyncFn (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/dheerendradev/Desktop/2a2dd2ca-5028-4e9e-9a95-bf749a813e6c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
